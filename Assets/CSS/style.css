@@ -12,7 +12,18 @@ content {
 }
 
 body {
-    background-image: url('C:\Users\arevi\Arizona\Assignment1\Basic-Portfolio\Assets\Images\vintage-concrete.png')   
+  /* Use relative paths instead of absolute paths */
+    /* background-image: url('C:\Users\arevi\Arizona\Assignment1\Basic-Portfolio\Assets\Images\vintage-concrete.png')    */
+    background-image: url('../Images/vintage-concrete.png')
+}
+
+/* The {.} selector is for classes not html elements */
+/* you dont want to use the href bit here. That is an html attribute not to be used with css! */
+/* .a href {
+    float: right;
+} */
+a{
+  float: right;
 }
 
 h1 {
