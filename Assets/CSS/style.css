@@ -17,18 +17,30 @@ body {
     background-image: url('../Images/vintage-concrete.png')
 }
 
+/* This prevents the element with id from taking up the whole width of the screen */
+#name{
+  display: inline;
+}
+
 /* The {.} selector is for classes not html elements */
 /* you dont want to use the href bit here. That is an html attribute not to be used with css! */
 /* .a href {
     float: right;
 } */
-a{
+
+.nav{
+  list-style: none;
   float: right;
+}
+
+.nav li {
+  display: inline;
 }
 
 h1 {
     font-family: "Georgia", Times, Times New Roman, serif; color: #4aaaa5
 }
+
 
 p {
     font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
