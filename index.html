@@ -3,39 +3,28 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <!-- You dont want to use absolute paths you should use relative paths -->
-  <!-- <link rel="stylesheet" type="text/css" href="C:\Users\arevi\Arizona\Assignment1\Basic-Portfolio\Assets\CSS\style.css"> -->
-  <link rel="stylesheet" href="Assets/CSS/style.css">
-  <title>Abe Rivera Portfolio</title>
-  <!-- The head of an HTML file should only contain meta data and links to css -->
-  <!--<h1>Abe Rivera</h1>
-    <a href="index.html">About</a>
-    <a href="portfolio.html">Portfolio</a>
-    <a href="contact.html">Contact</a> -->
+  <title>About | Abe Rivera</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
 </head>
 
 <body>
-  <div class="heading"><h1>Abe Rivera</h1>
+
+  <header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">Abe Rivera</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
   
-  <ul class="nav">
-      <li><a href="index.html">About</a></li>
-      <li><a href="portfolio.html">Portfolio</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>About Me</h1>
 
-  </div>
-
-  <div class="content">
-      <!-- Page content -->
-    
-  
-
-  <h2>About Me</h2>
-
-  <!-- You want to use https over http or you may have issues rendering the photo -->
-  <!-- <img src="http://lorempixel.com/400/200/" alt="Abe" height="200" width="400"> -->
   <img src="https://lorempixel.com/400/200" alt="abe">
 
   <p>Abe has had many lives in his 45 years. He's worked in training and development for most of his adult life. He's also worked
@@ -47,12 +36,15 @@
   <p>By the way, don't tease Abe about his first computer. He's very sensitive about it. He wanted a TI-99.
   </p>
 
+</section>
+
+</div>
+
+<footer>
+  <div class="container">
+    Copyright &copy; 
   </div>
-
-  <div class= "footer">
-      <p>Copyright</p>
-    </div>
-
+</footer>
 </body>
 
 </html>
